@@ -1,0 +1,24 @@
+body{
+    margin: 0; 
+    padding: 0;
+    background-color: lightblue;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto; 
+
+
+    .image{
+        // background-color: green;
+        display: block;
+        transition: transform 1s;
+        width: 220px;
+        height: 100px;
+        // margin: 0 auto;
+    }
+    .image:hover{
+        // transform: rotateZ(360deg);
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}

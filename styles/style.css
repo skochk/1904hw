@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container .image {
+  display: block;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  width: 220px;
+  height: 100px;
+}
+
+.container .image:hover {
+  -webkit-transform: rotate3d(0, 1, 0, 360deg);
+          transform: rotate3d(0, 1, 0, 360deg);
+}
+/*# sourceMappingURL=style.css.map */
